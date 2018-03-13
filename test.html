@@ -5,19 +5,21 @@
 	<meta name="google-signin-scope" content="profile email">
 	<meta name="google-signin-client_id" content="333339137496-dicdviibib1cs9ovo9v9lvm2ie7erbvc.apps.googleusercontent.com">
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="test.css">
     <script src="test.js"></script>
 </head>
 <body>
   <div class="container">
-   <div class="g-signin2" data-onsuccess="onSignIn">
-	</div>
+   <div class="g-signin2" data-onsuccess="onSignIn"></div>
 	<div class="data">
 	    <p>Profile Details of user</p>
-		<img id="myImg"/>
-        <p>Email Address</p>
-         <center><button onclick="signOut()">SignOut/button></center>
-    </div>	
+	    <img id="myImg" class="img-circle"/>
+            <p>Email Address</p>
+	    <p id="email"></p>
+            <center><button onclick="signOut()">SignOut</button></center>
+       </div>	
   </div>	
 </body>
 </html>
