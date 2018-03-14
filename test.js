@@ -1,5 +1,4 @@
-function onSignIn(googleUser)
-{
+function onSignIn(googleUser){
 	var profile = googleUser.getBasicProfile();
 	$("#data").css('dispaly' , "block");
 	$(".g-signin2").css("display" , "none");
