@@ -34,10 +34,6 @@ button
 	box-sizing:border box;
 	border-radius:4px;
 }
-.data
-{
-	display:none;
-}
 #myImg
 {
 	width:100px;
