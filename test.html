@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SignedIn</title>
-	<meta name="google-signin-scope" content="profile email">
 	<meta name="google-signin-client_id" content="333339137496-dicdviibib1cs9ovo9v9lvm2ie7erbvc.apps.googleusercontent.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="test.css">
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="test.css">
-    <script src="test.js"></script>
+	<script src="test.js"></script>
+    <title>SignedIn</title>
 </head>
 <body>
   <div class="container">
    <div class="g-signin2" data-onsuccess="onSignIn"></div>
 	<div id="data">
 	    <p class="profile">Profile Details of user</p>
-	    <img id="myImg" class="img-circle"/></br>
+	    <img id="myImg" class="img-circle"></br>
             <p class="id">Email Address</p>
 	    <p id="email"></p>
-	  <p id="logout"></p>
+	    <p id="logout"></p>
             <center><button onclick="signOut()">SignOut</button></center>
         </div>	
   </div>	
