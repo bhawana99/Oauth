@@ -10,11 +10,36 @@
 }
 .g-signin2
 {
-	margin:auto;
     text-align:center;
 }
 button
 {
 	background-color:red;
 	border-radius:4px;
+	
+}
+.profile
+{
+	width: 95%;
+	background-color:black;
+	color:whilte;
+	box-sizing:border box;
+	border-radius:4px;
+}
+.id
+{
+	width: 95%;
+	background-color:black;
+	color:whilte;
+	box-sizing:border box;
+	border-radius:4px;
+}
+.data
+{
+	display:none;
+}
+#myImg
+{
+	width:100px;
+	height:100px
 }
