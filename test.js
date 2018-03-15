@@ -1,6 +1,7 @@
 function onSignIn(googleUser){
 	var profile = googleUser.getBasicProfile();
 	$("#data").css("visibility" , "visible");
+	$("#logout").css("visibility" , "hidden");
 	$(".g-signin2").css("display" , "none");
 	$("#myImg").attr("src",profile.getImageUrl());
 	$("#email").text(profile.getEmail());
