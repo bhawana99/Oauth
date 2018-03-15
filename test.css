@@ -24,26 +24,34 @@ button
 }
 .profile
 {
-	width: 95%;
+	padding-left:3px;
 	background-color:tomato;
+	height:20px;
 	color:black;
+	font-weight: bold;
 	box-sizing:border box;
 	border-radius:4px;
 }
 .id
 {
-	width: 95%;
 	background-color:tomato;
 	color:black;
+	padding-left:3px;
+	height:20px;
 	box-sizing:border box;
 	border-radius:4px;
+	font-weight: bold;
 }
 #data
 {
 	visibility : hidden;
 }
+#logout
+{
+	visibility : hidden;
+}
 #myImg
 {
-	width:100px;
-	height:100px
+	width:300px;
+	height:300px
 }
