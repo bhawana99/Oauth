@@ -14,14 +14,15 @@
 <body>
   <div class="container">
    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+	<p id="logout">user successfully logged out</p>
 	<div id="data">
-	    <p class="profile">Profile Details of user</p>
-	    <img id="myImg" class="img-circle"></br>
-            <p class="id">Email Address</p>
+	    <p class="profile"><span>Profile Details of user</span></p>
+	    <center><p class="name" ></p></center>
+	    <center><img id="myImg" class="img-circle"></center><br>
+            <p class="id"><span>Email Address</span></p>
 	    <p id="email"></p>
 	    <center><button onclick="signOut()">SignOut</button></center>
         </div>	
-	<p id="logout">user successfully logged out</p>
   </div>	
 </body>
 </html>
