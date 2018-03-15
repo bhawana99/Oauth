@@ -38,7 +38,7 @@ button
 	box-sizing:border box;
 	border-radius:4px;
 }
-#data, #logout
+#data
 {
 	visibility : hidden;
 }
