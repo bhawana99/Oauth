@@ -14,8 +14,9 @@
 }
 .g-signin2
 {
-    text-align:center;
-    margin:auto;
+	margin-top:20px;
+        text-align:center;
+        margin:auto;
 }
 button
 {
