@@ -34,6 +34,7 @@ button
 	padding-left:3px;
 	height:40px;
 	color:black;
+	font-size:20px;
 	font-weight: bold;
 	box-sizing:border box;
 	border-radius:4px;
@@ -51,7 +52,7 @@ button
 {
 	text-align:center;
 	font-weight:bold;
-	font-size:40px;
+	font-size:20px;
 }
 #data
 {
@@ -59,6 +60,7 @@ button
 }
 #logout
 {
+	margin:auto;
 	visibility : hidden;
 }
 #myImg
