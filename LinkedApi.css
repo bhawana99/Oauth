@@ -10,13 +10,13 @@
 }
 #header
 {
-	visibility:hidden;
+	display:none;
 	text-shadow: 1px 1px black;
 	float:left;
 }
 #profileData
 {
-	visibility:hidden;
+	display:none;
 	color:black;
 	size:20px;
 }
