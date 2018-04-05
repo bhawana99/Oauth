@@ -4,9 +4,7 @@
 	max-width:350px;
 	margin:auto;
 	box-sizing:border-box;
-	box-shadow:2px 2px 2px black;
-	background-color:rgb(189, 245, 240);
-	text-align:center;
+	background-color:white;
 }
 #header
 {
