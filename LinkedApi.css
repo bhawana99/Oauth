@@ -8,20 +8,22 @@
 	background-color:rgb(189, 245, 240);
 	text-align:center;
 }
-h4
+#header
 {
+	display:none;
 	text-shadow: 1px 1px black;
 	float:left;
 }
 #profileData
 {
-	color:rgb(105,105,105);
+	color:black;
 	size:20px;
 }
-#link
+a
 {
 	margin-left:20px;
 	text-shadow:1px 1px white;
+	text-size:20px;
 	color:white;
 	background-color:black;
 	float:left;
@@ -32,10 +34,16 @@ button
 {
 	margin-right:20px;
 	color:white;
+	text-size:20px;
 	background-color:black;
 	text-shadow:1px 1px white;
 	float:right;
 }
+a:hover
+{
+	box-shadow:5px 5px 5px #888888;
+}
+
 button:hover
 {
 	box-shadow:5px 5px 5px #888888;
