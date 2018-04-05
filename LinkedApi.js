@@ -12,8 +12,8 @@ function displayProfileData(data){
     document.getElementById("email").innerHTML = user.emailAddress;
     document.getElementById("location").innerHTML = user.location.name;
     document.getElementById("link").innerHTML = '<a href="'+user.publicProfileUrl+'" target="_blank">Visit profile</a>';
-	document.getElementById('header').style.display = 'block';
-    document.getElementById('profileData').style.display = 'block';
+	document.getElementById('header').style.visibility = 'visible';
+    document.getElementById('profileData').style.visibility = 'visible';
 	
 }
 function onError(error) {
