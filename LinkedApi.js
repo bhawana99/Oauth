@@ -13,6 +13,7 @@ function displayProfileData(data){
     document.getElementById("location").innerHTML = user.location.name;
     document.getElementById("link").innerHTML = '<a href="'+user.publicProfileUrl+'" target="_blank">Visit profile</a>';
     document.getElementById('profileData').style.display= 'block';
+    document.getElementById('profileData').style.backgroundColor= '#66ffff';
 	
 }
 function onError(error) {
