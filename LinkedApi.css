@@ -6,13 +6,6 @@
 	box-sizing:border-box;
 	background-color:white;
 }
-#header
-{
-	text-align:center;
-	display:none;
-	text-shadow: 1px 1px black;
-	float:left;
-}
 #profileData
 {
 	display:none;
